@@ -9,7 +9,8 @@
 		{ href: resolve('/'), label: 'Home' },
 		{ href: resolve('/skills'), label: 'Skills' },
 		{ href: resolve('/lab/todo'), label: 'Lab' },
-		{ href: resolve('/lab/pomodoro'), label: 'Pomodoro' }
+		{ href: resolve('/lab/pomodoro'), label: 'Pomodoro' },
+		{ href: resolve('/lab/calculator'), label: 'Calculator' }
 	];
 
 	let current = $derived(page.url.pathname);
