@@ -7,7 +7,9 @@
 
 	const links = [
 		{ href: resolve('/'), label: 'Home' },
-		{ href: resolve('/skills'), label: 'Skills' }
+		{ href: resolve('/skills'), label: 'Skills' },
+		{ href: resolve('/lab/todo'), label: 'Lab' },
+		{ href: resolve('/lab/pomodoro'), label: 'Pomodoro' }
 	];
 
 	let current = $derived(page.url.pathname);
